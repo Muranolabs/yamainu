@@ -16,7 +16,7 @@ body {
   
   h1 {
     font-size: 3rem;
-    background: linear-gradient(90deg, #00CFFF, #A100FF, #36F1E1, #FF3EDB);
+    background: linear-gradient(90deg, #00CFFF, #A100FF, #05c5e7, #FF3EDB);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     animation: glow 3s ease-in-out infinite alternate;
