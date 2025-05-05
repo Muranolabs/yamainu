@@ -1,0 +1,5 @@
+# Miscellaneous
+# Ignore Visual Studio Code settings
+# Ignore node_modules directory
+node_modules
+.vscode
