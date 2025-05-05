@@ -1,6 +1,6 @@
 
+# Privacy Policy for Yamainu
 
-Privacy Policy for Yamainu
 Effective Date: May 04, 2025
 
 Thank you for using Yamainu ("the Bot"). This Privacy Policy explains how we collect, use, and protect information when you interact with Yamainu on the Discord platform.
@@ -10,17 +10,20 @@ Thank you for using Yamainu ("the Bot"). This Privacy Policy explains how we col
 Yamainu may collect and store the following information:
 
 ### a. User Data
+
 - Discord user IDs
 - Usernames or nicknames (only for display purposes)
 - Interactions with commands or features of the bot
 
 ### b. Server Data
+
 - Server (guild) IDs
 - Channel IDs
 - Configuration settings (e.g., command prefixes, feature toggles)
 - Role and permission information (if required for bot functionality)
 
 ### c. Event and Interaction Logs
+
 - Command usage and timestamps
 - Error and diagnostic logs (non-personal)
 
@@ -28,7 +31,8 @@ Yamainu does not collect message content unless explicitly required for a specif
 
 # 2. How We Use Your Information
 
-## We use your information to:
+## We use your information to
+
 - Provide and improve Yamainu’s services
 - Personalize and manage server-specific features
 - Prevent abuse or misuse of the bot
@@ -39,6 +43,7 @@ Yamainu does not share or sell user data to third parties.
 # 3. Data Retention
 
 We retain collected data only for as long as necessary to operate Yamainu effectively:
+
 - Server settings: retained until Yamainu is removed from the server
 - Interaction logs: typically stored for up to 30 days for debugging
 - User IDs: used for permission checks and customizations; deleted upon request
@@ -46,6 +51,7 @@ We retain collected data only for as long as necessary to operate Yamainu effect
 # 4. Data Sharing
 
 We do not share your data except:
+
 - When required by law
 - To enforce our Terms of Service
 - To respond to abuse reports
@@ -53,6 +59,7 @@ We do not share your data except:
 # 5. Your Rights
 
 Depending on your jurisdiction, you may have the right to:
+
 - Access data we store about you
 - Request data deletion
 - Withdraw consent for data processing
@@ -75,4 +82,4 @@ We may update this Privacy Policy as needed. Changes will be reflected here with
 
 If you have any questions or concerns about this Privacy Policy, please contact us:
 
-- 📧 Email: help@yamainu.xyz
+- 📧 Email: <help@yamainu.xyz>
