@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background: linear-gradient(135deg, #0B0F1A, #2B004F);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #00CFFF;
+  }
+  
+  .container {
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 3rem;
+    background: linear-gradient(90deg, #00CFFF, #A100FF, #36F1E1, #FF3EDB);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: glow 3s ease-in-out infinite alternate;
+  }
+  
+  @keyframes glow {
+    from {
+      text-shadow: 0 0 10px #00CFFF, 0 0 20px #A100FF;
+    }
+    to {
+      text-shadow: 0 0 20px #36F1E1, 0 0 30px #FF3EDB;
+    }
+  }
+  
