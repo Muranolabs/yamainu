@@ -1,9 +1,6 @@
 ---
 title: Yamainu Terms of Service
 ---
-
-@import "/src/theme.scss";
-
 # Terms of Service for Yamainu
 
 Effective Date: May 04, 2025
