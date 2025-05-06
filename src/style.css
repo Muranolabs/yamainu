@@ -1,34 +1,48 @@
 body {
-    margin: 0;
-    padding: 0;
-    height: 100vh;
-    background: linear-gradient(135deg, #0B0F1A, #2B004F);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: #00CFFF;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background: linear-gradient(135deg, #0B0F1A, #2B004F);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #00CFFF;
+}
+
+.container {
+  text-align: center;
+}
+
+h1 {
+  font-size: 9rem;
+  position: relative;
+  background: linear-gradient(90deg, #00CFFF, #A100FF, #36F1E1, #FF3EDB);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 0 0 0 #fff; /* Fallback for no outline */
+}
+
+h1::before {
+  content: 'Coming Soon™';
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+  color: white;
+  -webkit-text-stroke: 2px white;
+  text-stroke: 2px white; /* fallback */
+  filter: drop-shadow(0 0 10px #00CFFF) drop-shadow(0 0 20px #A100FF);
+  opacity: 0.7;
+}
+
+@keyframes glow {
+  from {
+    text-shadow: 0 0 20px #00CFFF, 0 0 20px #A100FF;
   }
-  
-  .container {
-    text-align: center;
+  to {
+    text-shadow: 0 0 40px #36F1E1, 0 0 30px #FF3EDB;
   }
-  
-  h1 {
-    font-size: 8rem;
-    text-shadow: 0 0 50px #00CFFF, 0 0 20px #1a1a1a;
-    background: linear-gradient(90deg, #00CFFF, #FF3EDB, #05c5e7, #FF3EDB);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    animation: glow 6s ease-in-out infinite alternate;
-  }
-  
-  @keyframes glow {
-    from {
-      text-shadow: 0 0 10px #00CFFF, 0 0 20px #A100FF;
-    }
-    to {
-      text-shadow: 90 70 200px #06e0fd, 0 0 30px #FF3EDB;
-    }
-  }
-  
+}
