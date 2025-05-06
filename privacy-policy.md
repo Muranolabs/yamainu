@@ -1,4 +1,6 @@
-
+---
+title: Yamainu Privacy Policy
+---
 # Privacy Policy for Yamainu
 
 Effective Date: May 04, 2025
